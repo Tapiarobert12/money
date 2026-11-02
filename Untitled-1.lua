@@ -45,7 +45,7 @@ local function SwimBypassTeleport(destinationCFrame)
     enableSwimMethod()
     task.wait(0.25)
 
-    HRP.CFrame = destinationCFrame + Vector3.new(2, 0, 0)
+    HRP.CFrame = destinationCFrame + CFrame.new(2, 0, 0)
 
     task.delay(0.25, function()
         disableSwimMethod()
